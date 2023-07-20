@@ -1,0 +1,401 @@
+.cont1 {
+    border-radius: 5px;
+    background-color: coral;
+    background-position: center;
+    background-repeat: repeat;
+    width:40%;
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+     }
+  .cont1_text{
+    margin-top: 150px;
+    text-align: center;
+    color: black;
+  }
+  @media screen and (max-width:992px){
+    .cont1{
+        max-width: 992px;
+    }
+    
+  }
+
+
+  .button1 {
+    background-color:black; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 12px 2px;
+    cursor: pointer;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .cont2{
+    border-radius: 5px;
+    background:url("https://w7.pngwing.com/pngs/498/616/png-transparent-gold-colored-chunky-necklace-jewellery-gold-necklace-pendant-gold-necklace-queen-gemstone-leave-the-material-ring-thumbnail.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: bisque;
+    width: 60%;
+    height: 500px;
+   margin-right: 50px;
+   margin-top: 50px;
+  }
+  .contmerg{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+
+  }
+  .button2{
+    background-color:black; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 12px 2px;
+    cursor: pointer;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: top-left;
+    margin-left: 700px;
+
+  }
+  .button3{
+    background-color:black; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 12px 2px;
+    cursor: pointer;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+  .aboutxt{
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 10px;
+  }
+  .whole{
+    column-count:2;
+  }
+.contact{
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: 10px;
+  margin-bottom: 50px;
+}
+.better{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.We{
+margin-top: 30px;
+margin-bottom: 30px;
+}
+  .button4{
+    background-color:black; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+  padding: 14px 40px;
+ margin-left: 350px;
+}
+
+.sap{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.address{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 5px;
+}
+.hr{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: 5px;
+}  
+.googlemap{
+  width: 100%;
+  height: 100px;
+  margin-bottom: 30px;
+}
+.btn{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: coral;
+  color: black;
+  margin-left: 10px;
+
+}
+.connect{
+  margin-top: 350px;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+.icons{
+  font-size: 60px;
+  color:blue;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 130px;
+ 
+}
+.copy{
+  margin-left: 70px;
+  font-size: 18px;
+  /* margin-bottom: 50px; */
+}
+.pow{
+  font-size: 18px;
+   margin-left: 1300px;
+   margin-top: -40px;
+   /* margin-bottom: 50px; */
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.whole{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  width: 100%;
+}
+.column1{
+  width: 100%;
+  margin: 10px;
+}
+.column2{
+  width: 100%;
+  margin: 10px;
+}
+.column1 .p{
+  font-size: 20px;
+}
+.column2 .p{
+  font-size: 20px;
+}
+/* Styling for the buttons */
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+/* Styles for the "Signup" button */
+.open-button {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Hover styles for the "Signup" button */
+.open-button:hover {
+  background-color: #0073e6; /* Darker shade of blue */
+}
+
+/* Styles for the "Cancel" button */
+.cancelbtn {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Hover styles for the "Cancel" button */
+.cancelbtn:hover {
+  background-color: #cc0000; /* Darker shade of red */
+}
+
+/* Styles for the "Sign Up" button */
+.signupbtn {
+  background-color: #4CAF50; /* Green color */
+  color: white;
+}
+
+/* Hover styles for the "Sign Up" button */
+.signupbtn:hover {
+  background-color: #45a049; /* Darker shade of green */
+}
+
+/* Styles for the "Login" button inside the popup */
+.btn {
+  background-color: #4CAF50; /* Green color */
+  color: white;
+}
+
+/* Hover styles for the "Login" button */
+.btn:hover {
+  background-color: #45a049; /* Darker shade of green */
+}
+
+/* Styles for the "Close" button inside the popup */
+.cancel {
+  background-color: #f44336; /* Red color */
+  color: white;
+}
+
+/* Hover styles for the "Close" button */
+.cancel:hover {
+  background-color: #cc0000; /* Darker shade of red */
+}
+
+/* Container for the form */
+.formcontainer {
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+
+/* Styling for the header */
+.formcontainer h1 {
+  text-align: center;
+}
+
+/* Styling for the input fields */
+.formcontainer label {
+  display: block;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+}
+
+.formcontainer input[type="text"],
+.formcontainer input[type="password"],
+.formcontainer input[type="checkbox"] {
+  width: 100%;
+
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+/* Styling for the form buttons */
+.formcontainer .clearfix {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.formcontainer .clearfix button {
+  flex: 1;
+}
+
+/* Styling for the login popup */
+.logincontainer {
+  position: relative;
+  width: 100%; /* Added width property */
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+/* Styling for the login form popup */
+.login-form-popup {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  width: 50%;
+  right: 0;
+  /* bottom: 10%; */
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.signup-form-popup {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  width: 50%;
+  right: 0;
+  /* bottom: 10%; */
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-popup .form-container {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-popup h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.open-button1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: -56px;
+    background-color: aqua;
+}
+
+.open-button2{
+  
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  background-color: aqua;
+}
+.email{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.password{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

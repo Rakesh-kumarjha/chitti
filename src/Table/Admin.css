@@ -1,0 +1,179 @@
+.customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .customers td, .customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .customers tr:hover {background-color: #ddd;}
+  
+  .customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  .open-button {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+
+  .open-button:hover {
+    background-color: #0073e6; 
+  }
+  
+  
+  .cancel {
+    background-color: #f44336; 
+    color: white;
+  }
+  
+  
+  .cancel:hover {
+    background-color: #cc0000; 
+  }
+  
+ 
+  .formcontainer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+ 
+  .formcontainer h1 {
+    text-align: center;
+  }
+  
+  
+  .formcontainer label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .formcontainer input[type="text"],
+  .formcontainer input[type="password"],
+  .formcontainer input[type="checkbox"] {
+    width: 100%;
+  
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  
+  .formcontainer .clearfix {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .formcontainer .clearfix button {
+    flex: 1;
+  }
+  
+  
+  .logincontainer {
+    position: relative;
+    width: 100%; 
+  }
+  
+  .login-form-popup {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    width: 50%;
+    right: 0;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signup-form-popup {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    width: 50%;
+    right: 0;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-popup .form-container {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-popup h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .dropbtn {
+   
+    color: white;
+   
+    width: 100%;
+    font-size: 16px;
+
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: blue;
+  }
+  
